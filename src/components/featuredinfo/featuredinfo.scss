@@ -1,0 +1,56 @@
+.featured-container {
+   width: 100%;
+
+   .summary {
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      cursor: pointer;
+
+      .card {
+         width: 320px !important;
+      }
+
+      .title {
+         font-size: 22px;
+      }
+
+      .progress-wrapper {
+         margin: 10px 0px;
+         display: flex;
+         flex-direction: row;
+         align-items: center;
+
+         span {
+            display: block;
+         }
+         
+         .current {
+            font-size: 24px;
+            font-weight: bold;
+            margin-right: 20px;
+         }
+
+         .progress {
+            font-size: 16px;
+         }
+
+         .arrow-progess {
+            margin-left: 5px;
+            margin-bottom: 5px;
+            font-size: 28px !important;
+            color: rgb(0, 172, 0);
+         }
+      }
+
+      span:nth-child(3) {
+         color: rgb(196, 196, 196);
+         font-size: 14px;
+      }
+   }
+
+   .summary:nth-child(0) {
+      background-color: red;
+   }
+}

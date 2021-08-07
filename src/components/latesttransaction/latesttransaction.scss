@@ -1,0 +1,21 @@
+.latest-container {
+   flex-grow: 10;
+   margin-left: 30px;
+   height: auto;
+   .wrapper {
+      margin: 15px;
+      
+      .wrapper-title {
+         display: flex;
+         flex-direction: row;
+         justify-content: space-around;
+         font-size: 18px;
+         font-weight: bold;
+      }
+
+      .wrapper-list {
+         display: flex;
+         flex-direction: column;
+      }
+   }
+}

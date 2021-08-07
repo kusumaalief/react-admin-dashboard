@@ -1,0 +1,24 @@
+.latestlist-container {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding-right: 2.5rem;
+   width: 100%;
+   flex-direction: row;
+   margin: 10px 0px;
+
+   img {
+      width: 32px;
+      height: 32px;
+      object-fit: cover;
+      border-radius: 50%;
+      // flex-grow: 1;
+      margin-right: 20px;
+   }
+
+   span {
+      display: block;
+      flex: 1;
+   }
+
+}

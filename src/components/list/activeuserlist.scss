@@ -1,0 +1,41 @@
+.user-list {
+   margin: 10px 0px;
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: space-between;
+   width: 100%;
+
+   img {
+      width: 32px;
+      height: 32px;
+      object-fit: cover;
+      border-radius: 50%;
+   }
+
+   .name-wrapper {
+      margin-right: 5px;
+      display: flex;
+      flex-direction: column;
+      flex-grow: 1;
+      margin: 0px 15px;
+
+      h4 {
+         font-weight: bold;
+         text-transform: capitalize;
+      }
+
+      span {
+         font-size: 15px;
+         color: #444;
+      }
+   }
+
+   button {
+      .icon {
+         font-size: 18px !important;
+         margin-right: 5px;
+      }
+
+   }
+}
