@@ -3,9 +3,10 @@ import Sidebar from "./components/sidebar/Sidebar";
 
 import "./app.scss"
 import Home from "./pages/home/Home";
-import Users from "./pages/users/users";
+import Users from "./pages/users/Users";
 
 import { BrowserRouter as Router,Switch,Route } from "react-router-dom";
+import UserDetail from "./pages/users/UserDetail";
 
 function App() {
   return (
@@ -23,6 +24,11 @@ function App() {
               <Route path="/users">
                 <Users/>
               </Route>
+
+              <Route path="/user/:userId">
+                <UserDetail/>
+              </Route>
+
             </Switch>
           </div>
         </div>

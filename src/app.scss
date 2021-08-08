@@ -1,3 +1,70 @@
+* {
+   margin: 0px;
+   padding: 0px;
+   box-sizing: border-box;
+   font-family: 'Source Sans Pro', sans-serif;
+}
+
+.flex-row {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+}
+
+.mr-h-20 {
+   margin: 20px 0px;
+}
+
+.mr-h-30 {
+   margin: 30px 0px;
+}
+
+.mr-h-10 {
+   margin: 10px 0px;
+}
+
+h3 {
+   font-size: 21px;
+}
+
+.card {
+   box-shadow: 0px 0px 5px rgba(110, 110, 110, 0.7);
+   padding: 20px;
+   height: auto;
+   width: auto;
+}
+
+.btn {
+   padding: 5px;
+   border-radius: 5px;
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: space-evenly;
+   border: none;
+   cursor: pointer;
+}
+
+.btn-disable {
+   color: #666;
+   background-color: rgb(214, 214, 214);
+}
+
+.btn-approved {
+   color: rgb(4, 216, 4);
+   background-color: rgb(191, 255, 191);
+}
+
+.btn-pending {
+   color: rgb(51, 156, 255);
+   background-color: rgb(182, 210, 252);
+}
+
+.btn-declined {
+   color: rgb(255, 49, 49);
+   background-color: rgb(252, 182, 182);
+}
+
 .app-container {
    // background-color: red;
    .main-container {

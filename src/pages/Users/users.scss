@@ -1,4 +1,29 @@
 .container {
    width: 100%;
    padding: 10px;
+   height: 100%;
+   .user-list {
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+
+      .user-photo {
+         height: 32px;
+         width: 32px;
+         border-radius: 50%;
+         object-fit: cover;
+         margin-right: 15px;
+      }
+
+   }
+
+   .button-wrapper {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+
+      button {
+         margin-right: 10px;
+      }
+   }
 }
