@@ -1,0 +1,119 @@
+.container {
+
+   .top-container {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 20px;
+
+      .btn-create {
+         font-size: 1.1rem;
+         background-color: rgb(0, 158, 84);
+         color: white;
+      }
+   }
+
+   .content-container {
+      display: flex;
+
+      .flex-row {
+         width: 100%;
+
+         .profile-container {
+            flex-grow: 1;
+
+            span {
+               display: flex;
+               align-items: center;
+               margin: 15px 0px;
+               font-size: 18px;
+               // background-color: red;
+
+               .icon {
+                  color: #666 !important;
+                  margin-right: 10px;
+                  font-size: 17px;
+               }
+            }
+
+            .profile {
+               display: flex;
+               align-items: center;
+               padding-bottom: 20px;
+               border-bottom: 2px solid lightgray;
+
+               img {
+                  width: 42px;
+                  height: 42px;
+                  border-radius: 50%;
+                  object-fit: cover;
+               }
+
+               .name-wrapper {
+                  display: flex;
+                  flex-direction: column;
+                  margin-left: 15px;
+                  font-size: 19px;
+
+                  .name {
+                     font-weight: bold;
+                     margin: 0px;
+                  }
+
+                  .job {
+                     margin: 0px;
+                     color: #666;
+                  }
+               }
+            }
+
+            span.title {
+               font-weight: bold;
+               color: #999;
+               margin: 20px 0px;
+            }
+
+         }
+
+         .edit-container {
+            flex-grow: 5;
+            // height: 400px;
+            margin-left: 30px;
+            
+            h2 {
+               font-size: 28px;
+            }
+
+            .wrapper {
+               margin-top: 20px;
+               display: flex;
+               flex-direction: column;
+
+               .input-column {
+                  flex-grow: 1;
+                  
+                  .input-group {
+                     display: flex;
+                     flex-direction: column;
+                     
+                     label {
+                        margin-bottom: 5px;
+                        font-size: 17px;                        
+                        color: #999
+                     }
+
+                     input {
+                        margin-bottom: 10px;
+                        border: none;
+                        border-bottom: 2px solid lightgray;
+                        outline: none;
+                        padding: 10px;
+                        font-size: 17px;
+                     }
+                  }
+               }
+            }
+         }
+      }
+   }
+}
